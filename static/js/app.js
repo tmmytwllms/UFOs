@@ -44,8 +44,8 @@ function handleClick() {
     };
 };
 
-// listen for the filter click
+// listen for the filter click (attaching an event to listen to the button)
 d3.selectAll("#filter-btn").on("click",handleClick);
 
 // display the original table when page loads
-buildTabel(tableData);
+buildTable(tableData);
