@@ -32,3 +32,5 @@ Image 2: Data filtered using the city filter, with an input of "bonita," which f
 <br/>
 
 ## Summary
+- Drawbacks:The major drawback of this page is that the date filter strictly filters the data and only returns matching dates, which may return no results at all. This could be resolved by adding a date range to the filter, allowing dates with no matches to still display dates within a variance from the input date.
+- Recommendations: One recommendation for further development would be the addition of more data to the dataset to allow for more search options when filtering, which could be achieved by webscraping to fetch new data on a regular basis. Lastly, images, where available, could be added for sightings to present a depiction of the event to the viewers. 
